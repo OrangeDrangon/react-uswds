@@ -7,5 +7,5 @@ export const context = createContext<{
   setOpen: Dispatch<SetStateAction<null | string>>;
 }>({
   open: null,
-  setOpen: (val) => undefined,
+  setOpen: val => undefined,
 });
