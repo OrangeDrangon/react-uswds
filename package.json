@@ -32,8 +32,8 @@
     "trailingComma": "es5",
     "arrowParens": "always"
   },
-  "name": "@orangedrangon/react-uswds",
-  "author": "orangedrangon",
+  "name": "@drangon/react-uswds",
+  "author": "drangon",
   "module": "dist/react-uswds.esm.js",
   "devDependencies": {
     "@babel/core": "^7.8.4",
