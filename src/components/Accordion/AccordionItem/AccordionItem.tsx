@@ -1,6 +1,6 @@
 import React, { ReactNode, useContext } from "react";
 import PropTypes from "prop-types";
-import { context as AccordionContext } from "../context";
+import { AccordionContext } from "../context";
 
 import "./AccordionItem.scss";
 

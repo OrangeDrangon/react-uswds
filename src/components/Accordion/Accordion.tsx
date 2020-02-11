@@ -1,6 +1,6 @@
 import React, { PropsWithChildren, useState } from "react";
 import PropTypes from "prop-types";
-import { context as AccordionContext } from "./context";
+import { AccordionContext as AccordionContext } from "./context";
 
 import "./Accordion.scss";
 
