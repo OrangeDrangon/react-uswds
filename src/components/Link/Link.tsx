@@ -21,7 +21,9 @@ const Link = ({
 }: PropsWithChildren<Props & AnchorHTMLAttributes<HTMLAnchorElement>>) => {
   let classNames = ["usa-link"];
   if (external) classNames.push(" usa-link--external");
-  if (buttonStyle != null) {classNames.push(` ${getButtonClassName(buttonStyle)}`);}
+  if (buttonStyle != null) {
+    classNames.push(` ${getButtonClassName(buttonStyle)}`);
+  }
   const className = classNames.reverse().join(" ");
 
   return (

@@ -1,10 +1,11 @@
-export type ButtonTypes = "default"
-| "secondary"
-| "accent"
-| "base"
-| "outline"
-| "outline-inverse"
-| "big";
+export type ButtonTypes =
+  | "default"
+  | "secondary"
+  | "accent"
+  | "base"
+  | "outline"
+  | "outline-inverse"
+  | "big";
 
 export const getButtonClassName = (variant: ButtonTypes): string => {
   let classNameUsa = "usa-button";
@@ -35,4 +36,4 @@ export const getButtonClassName = (variant: ButtonTypes): string => {
   }
 
   return classNameUsa;
-}
+};

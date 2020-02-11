@@ -2,10 +2,13 @@ import React, { ButtonHTMLAttributes } from "react";
 import PropTypes from "prop-types";
 
 import "./Button.scss";
-import { ButtonTypes, getButtonClassName } from '../../utils/getButtonClassName';
+import {
+  ButtonTypes,
+  getButtonClassName,
+} from "../../utils/getButtonClassName";
 
 interface Props {
-  variant: ButtonTypes
+  variant: ButtonTypes;
 }
 
 const Button = ({
