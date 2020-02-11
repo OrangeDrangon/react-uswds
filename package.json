@@ -25,7 +25,8 @@
   },
   "prettier": {
     "printWidth": 80,
-    "trailingComma": "es5"
+    "trailingComma": "es5",
+    "arrowParens": "always"
   },
   "name": "react-uswds",
   "author": "Kyle",

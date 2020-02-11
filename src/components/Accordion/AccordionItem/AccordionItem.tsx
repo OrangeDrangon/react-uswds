@@ -19,7 +19,7 @@ const AccordionItem = ({ header, content, id }: Props) => {
           className="usa-accordion__button"
           aria-expanded={open === id}
           aria-controls={id}
-          onClick={() => setOpen(val => (val === id ? null : id))}
+          onClick={() => setOpen((val) => (val === id ? null : id))}
         >
           {header}
         </button>
